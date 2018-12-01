@@ -1,0 +1,163 @@
+/*
+______________________
+
+Jumbotron
+______________________
+*/
+
+.jumbotron{
+    background-image: url("../assets/jumbotron.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    
+    height: 70vh;
+    color: white;
+    position: relative;
+}
+
+.jumbotron .container{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    padding: 25px;
+}
+
+/*
+_______________________
+
+Credit Source Materials
+_______________________
+*/
+
+.sectioncredits{
+    text-align: center;
+    height: 25vh;
+}
+
+/*
+-----------------------
+Services
+-----------------------
+*/
+
+.sectionservices{
+    background-color: #007bff;
+    color: white;
+}
+
+.sectionservices img{
+    text-align: center;
+}
+
+.sectionservices .row{
+    padding: 25px 0px;
+}
+
+.sectionservicesdiv .col-3, .sectionservicesdiv .col-4{
+    border-bottom-color: white;
+    border-bottom-width: 1px;
+    border-bottom-style: groove;
+}
+
+/*
+-----------------------
+Benefits
+-----------------------
+*/
+
+.sectionbenefits{
+    padding: 50px;
+    color: black;
+}
+
+.sectionbenefits .carousel .carousel-caption{
+    color: white;
+    text-shadow: 1px 1px gray;
+}
+
+/*
+------------------------
+Call to Action
+------------------------
+*/
+
+.sectionaction{
+    background-color: darkorange;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.sectionaction a{
+    margin: 25px;
+}
+
+/*
+-------------------------
+Footer Area
+-------------------------
+*/
+
+.sectionfooter{
+    background-color: #6c757d;
+    padding: 10px;
+    color: white;
+}
+
+.sectionfooter a{
+    color: white;
+    text-decoration: none;
+    margin: 30px;
+}
+
+/*
+-------------------------
+Section Search
+-------------------------
+*/
+.sectionsearchbar{
+    background-color: #343a40;
+    color: white;
+    padding: 10px;
+}
+
+.sectionsearch{
+    margin-top: 50px;
+}
+
+.sectionsearch .lessonplanlist .card{
+    margin-top: 10px;
+}
+
+.sectionsearch .lessonplanlist{
+    margin-bottom: 75px;
+}
+
+/*
+-------------------------
+Lesson Plan Description
+-------------------------
+*/
+
+.breadcrumb{
+    background-color: #343a40;
+    color: white;
+    border-radius: 0px;
+}
+
+.lessondescription .row{
+    margin-top: 25px;
+}
+
+.lessondescription{
+    margin-bottom: 100px;
+}
+
+.lessondescription .carousel-control-next-icon-cus, .lessondescription .carousel-control-prev-icon-cus{
+    font-size: 300%;
+    color: black;
+}
